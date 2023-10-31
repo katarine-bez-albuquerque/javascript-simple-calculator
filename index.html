@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="page">
+        <header class="header">
+            <section class="logo">
+                <h1><strong>KBA</strong></h1>
+            </section>
+            <nav class="social">
+                <a target="_blank" href="https://github.com/katarineBAlbuquerque"><strong>Github</strong></a>
+                <a target="_blank" href="https://www.linkedin.com/in/katarine-albuquerque/"><strong>Linkedin</strong></a>
+            </nav>
+        </header>
+        <section class="content">
+            <aside class="title">
+                <h1><strong>Calculator</strong></h1>
+            </aside>
+            <aside class="print">
+                <input class="number" type="number" name="qtd" id="qtd" placeholder="Enter Quantity Numbers"/>
+            </aside>
+            
+            <aside class="numbers">
+                <button class="btn" id="numbers">Enter Numbers</button>
+            </aside>
+            <aside class="print">
+                <input class="number font" type="text" name="number" id="values" placeholder="[ 0 ]" disabled="true"/>
+            </aside>
+            <aside class="numbers">
+                <h1><strong>Select Operation</strong></h1>
+            </aside>
+            <aside class="buttons">
+                <button class="btn" id="percentage">%</button>
+                <button class="btn" id="sqrt">&radic;</button>
+                <button class="btn" id="sum">+</button>
+                <button class="btn" id="subtract">-</button>
+                <button class="btn" id="multiply">x</button>
+                <button class="btn" id="divide">&divide;</button>
+            </aside>
+            <aside class="print">
+                <input class="number font" type="text" name="number" id="total" placeholder="Total: 0" disabled="true"/>
+            </aside>
+            <footer class="footer">
+                <h5><strong>@2023</strong></h5>
+            </footer>
+        </section>
+    </div>
+    
+    <script src="./modules/App.js" type="module"></script>
+</body>
+</html>

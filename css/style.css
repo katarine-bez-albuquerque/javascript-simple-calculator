@@ -1,0 +1,245 @@
+/**
+* style.css
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0 NONE
+}
+
+/* A */
+
+a,
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 5px;
+    color: #000;    
+}
+
+/* STRONG */
+
+strong {
+    font-weight: 900;
+}
+
+/* BODY */
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: "Verdana";
+    background-color: #FFF;
+}
+
+/* PAGE */
+
+.page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff2df;
+}
+
+/* HEADER */
+
+.header {
+    width: 90%;
+    height: 10vh;
+    padding: 0 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDE03;
+}
+
+/* LOGO, SOCIAL */
+
+.logo,
+.social {
+    width: auto;
+    height: auto;
+}
+
+.logo h1 {
+    font-size: 2.4rem;
+    color: #000;
+}
+
+/* CONTENT */
+
+.content {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff2df;
+}
+
+/* TITLE */
+
+.title {
+    width: 70%;
+    height: 12.5vh;
+    padding: 1vh 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1 {
+    font-size: 2.6rem;
+    font-style: italic;
+    color: #FF0266;
+}
+
+/* PRINT */
+
+.print {
+    width: 70%;
+    height: 26vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* INPUT */
+
+.number {
+    width: 96.5%;
+    height: 10vh;
+    padding: 0 1%; 
+    margin: 10px 0;
+    font-size: 2rem;
+    font-weight: 900;
+    border: 3px solid #FF0266;
+    background-color: #fff2df;
+}
+
+@media(max-width: 768px) {
+    .number {
+        width: 94%;
+        font-size: 0.9rem;
+        padding: 0 2%;
+    }
+
+    .font {
+        font-size: 1.3rem;
+    }
+}
+
+.number,
+.number::placeholder {
+    text-align: center;
+}
+
+.number:focus {
+    outline: 0 none;
+    border: 3px solid #FF0266;
+}
+
+/* BUTTON */
+
+#numbers {
+    width: 99%;
+    height: 10vh;
+    color: #FFF;
+    background-color: #FF0266;
+    border: 3px solid #FF0266;
+}
+
+#numbers:focus {
+    outline: 0 none;
+    border: 3px solid #FF0266;
+}
+
+/* TOTAL, VALUES */
+
+#total, 
+#values {
+    width: 99%;
+    height: 10vh;
+    color: #FFF;
+    border: 0 none;
+}
+
+/* QTD, TOTAL, VALUES */
+
+#qtd,
+#total, 
+#values,
+#qtd::placeholder,
+#total::placeholder, 
+#values::placeholder {
+    color: #000;
+}
+
+/* NUMBERS */
+
+.numbers {
+    width: 70%;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BUTTONS */
+
+.buttons {
+    width: 70%;
+    height: 12.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.btn {
+    width: 96%;
+    height: 14vh;
+    font-size: 2rem;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer; 
+    color: #FFF;
+    background-color: #FF0266;
+    border: 3px solid #fff2df;  
+}
+
+@media(max-width: 768px) {
+    .btn {
+        font-size: 1.6rem;
+    }
+}
+
+.btn:focus {
+    outline: 0 none;
+    border: 3px solid #FF0266;
+}
