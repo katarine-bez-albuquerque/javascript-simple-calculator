@@ -4,7 +4,7 @@
 
 ## Sobre o projeto
 
-Projeto: [trabalho de javascript](https://javascript-simple-calculator-zeta.vercel.app/)
+Projeto: [trabalho de javascript](https://javascript-simple-calculator-lovat.vercel.app/)
 
 Calculadora simples para cálculos básicos. O usuário informa a quantidade de números a calcular e depois escolhe uma operação a ser realizada. O número máximo de números é 10 para adição, subtração, multiplicação e divisão. Para cálculo percentual são 2 números e para raiz quadrada é apenas 1 número.
 
